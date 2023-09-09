@@ -41,6 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   
       treasureLocation = Math.floor(Math.random() * gridSize * gridSize);
+      treasureLocation2 = Math.floor(Math.random() * gridSize * gridSize);
       gameOver = false;
     });
   });
